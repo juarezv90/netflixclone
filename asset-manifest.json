@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/juarezv90.github.io/netflixclone/static/css/main.79eed886.css",
-    "main.js": "/juarezv90.github.io/netflixclone/static/js/main.ba19d2af.js",
+    "main.js": "/juarezv90.github.io/netflixclone/static/js/main.94bb6cf7.js",
     "index.html": "/juarezv90.github.io/netflixclone/index.html",
     "main.79eed886.css.map": "/juarezv90.github.io/netflixclone/static/css/main.79eed886.css.map",
-    "main.ba19d2af.js.map": "/juarezv90.github.io/netflixclone/static/js/main.ba19d2af.js.map"
+    "main.94bb6cf7.js.map": "/juarezv90.github.io/netflixclone/static/js/main.94bb6cf7.js.map"
   },
   "entrypoints": [
     "static/css/main.79eed886.css",
-    "static/js/main.ba19d2af.js"
+    "static/js/main.94bb6cf7.js"
   ]
 }
