@@ -15,7 +15,7 @@ const SignUp = () => {
 
     try {
       await signUp(email, password)
-      navigate('/');
+      navigate('/netflixclone');
     } catch (error) {
       console.log(error)
     };
@@ -63,7 +63,7 @@ const SignUp = () => {
                   <span className="text-gray-600">
                     Already Subscribed to Netflix?
                   </span>{' '}
-                  <Link to="/login">Sign In</Link>
+                  <Link to="/netflixclone/login">Sign In</Link>
                 </p>
               </form>
             </div>

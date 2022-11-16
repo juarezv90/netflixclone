@@ -3,7 +3,6 @@ import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { UserAuth } from "../context/AuthContext";
 import { db } from "../firebase";
 import { arrayUnion, doc, updateDoc } from "firebase/firestore";
-import { async } from "@firebase/util";
 
 const Movie = ({ item }) => {
   const [like, setLike] = useState(false);
@@ -41,14 +40,12 @@ const Movie = ({ item }) => {
         </p>
 
         <p onClick={saveShow}>
-          {like ? (
+          {saved ? (
             <FaHeart
-              onClick={() => setLike(false)}
               className="absolute top-4 left-4 text-gray-400"
             />
           ) : (
             <FaRegHeart
-              onClick={() => setLike(true)}
               className="absolute top-4 left-4 text-gray-400"
             />
           )}

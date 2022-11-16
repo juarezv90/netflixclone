@@ -13,7 +13,7 @@ const Login = () => {
     setError("");
     try {
       await logIn(email, password);
-      navigate('/')
+      navigate('/netflixclone')
     } catch (error) {
       console.log(error);
       setError(error.message);
@@ -66,7 +66,7 @@ const Login = () => {
                   <span className="text-gray-600">
                     Already Subscribed to Netflix?
                   </span>{" "}
-                  <Link to="/signup">Sign Up</Link>
+                  <Link to="/netflixclone/signup">Sign Up</Link>
                 </p>
               </form>
             </div>
